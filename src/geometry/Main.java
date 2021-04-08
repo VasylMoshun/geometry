@@ -26,8 +26,8 @@ public class Main {
 
         Circle c1 = new Circle(
                 new Vertices2D(2, 8), 5);
-        System.out.println("circle perimeter:" + " " + r1.getPerimeter() + "\n"
-                + "circle area:" + " " + r1.getArea());
+        System.out.println("circle perimeter:" + " " + c1.getPerimeter() + "\n"
+                + "circle area:" + " " + c1.getArea());
 
         Cuboid cd1 = new Cuboid(
                 new Vertices3D(1, 1, 1), 1, 8, 6);
