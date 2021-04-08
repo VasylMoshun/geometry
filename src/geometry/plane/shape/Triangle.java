@@ -1,22 +1,24 @@
 package geometry.plane.shape;
 
+import geometry.vertices.Vertices2D;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class Triangle extends PlaneShape {
-    public Triangle(Vertices2D a,Vertices2D b, Vertices2D c) {
-        vertices = new ArrayList<>();
-        vertices.add(a);
-        vertices.add(b);
-        vertices.add(c);
+    public Triangle(Vertices2D a, Vertices2D b, Vertices2D c) {
+        vertices = new ArrayList<Vertices2D>(List.of(a));
+        vertices = new ArrayList<Vertices2D>(List.of(b));
+        vertices = new ArrayList<Vertices2D>(List.of(c));
     }
 
     @Override
     public double getArea() {
         // S=sqrt(p-a)*(p-b)*(p-c)
-        double hp = getPerimeter()/2;  //halfPerimeter
-        Vertices2D a =vertices.get(0);
-        Vertices2D b =vertices.get(1);
-        Vertices2D c =vertices.get(2);
+        double hp = getPerimeter() / 2;  //halfPerimeter
+        Vertices2D a = vertices.get(0);
+        Vertices2D b = vertices.get(1);
+        Vertices2D c = vertices.get(2);
         return Math.sqrt
                 (hp *
                 (hp  - a.distanceTo(b)) *

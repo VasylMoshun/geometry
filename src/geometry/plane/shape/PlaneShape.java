@@ -2,6 +2,7 @@ package geometry.plane.shape;
 
 import geometry.interfase.AreaMeasurable;
 import geometry.interfase.PerimeterMeasurable;
+import geometry.vertices.Vertices2D;
 
 import java.util.List;
 

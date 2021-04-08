@@ -1,16 +1,18 @@
 package geometry.spase.shape;
 
+import geometry.vertices.Vertices3D;
+
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * holds 1 vertex and radius
  */
-public class Sphere extends SpaceShape{
+public class Sphere extends SpaceShape {
     private final double radius;
 
-    public Sphere(Vertices3D a,double radius) {
-        vertices = new ArrayList<>();
-        vertices.add(a);
+    public Sphere(Vertices3D a, double radius) {
+        vertices = new ArrayList<Vertices3D>(List.of(a));
         this.radius = radius;
     }
 

@@ -3,6 +3,7 @@ package geometry.spase.shape;
 import geometry.interfase.AreaMeasurable;
 import geometry.interfase.PerimeterMeasurable;
 import geometry.interfase.VolumeMeasurable;
+import geometry.vertices.Vertices3D;
 
 import java.util.List;
 

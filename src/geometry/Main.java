@@ -3,11 +3,11 @@ package geometry;
 import geometry.plane.shape.Circle;
 import geometry.plane.shape.Rectangle;
 import geometry.plane.shape.Triangle;
-import geometry.plane.shape.Vertices2D;
 import geometry.spase.shape.Cuboid;
 import geometry.spase.shape.Sphere;
 import geometry.spase.shape.SquarePyramid;
-import geometry.spase.shape.Vertices3D;
+import geometry.vertices.Vertices2D;
+import geometry.vertices.Vertices3D;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,9 @@
 package geometry.spase.shape;
 
+import geometry.vertices.Vertices3D;
+
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * holds 1 vertex, width, height, depth
@@ -9,8 +12,7 @@ public class Cuboid extends SpaceShape{
     private final double width, height, depth;
 
     public Cuboid(Vertices3D a, double width, double height, double depth) {
-        vertices = new ArrayList<>();
-        vertices.add(a);
+        vertices = new ArrayList<Vertices3D>(List.of(a));
         this.width = width;
         this.height = height;
         this.depth = depth;

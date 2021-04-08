@@ -1,6 +1,6 @@
 package geometry.spase.shape;
 
-import geometry.plane.shape.Vertices2D;
+import geometry.vertices.Vertices3D;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,8 @@ import java.util.List;
 public class SquarePyramid extends SpaceShape {
     private final double width, height;
 
-    public SquarePyramid(Vertices3D a,double width, double height) {
-        vertices = new ArrayList<>();
-        vertices.add(a);
+    public SquarePyramid(Vertices3D a, double width, double height) {
+        vertices = new ArrayList<Vertices3D>(List.of(a));
         this.width = width;
         this.height = height;
     }

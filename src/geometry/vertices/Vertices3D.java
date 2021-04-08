@@ -1,6 +1,4 @@
-package geometry.spase.shape;
-
-import geometry.plane.shape.Vertices2D;
+package geometry.vertices;
 
 public class Vertices3D extends Vertices2D {
     double z;
