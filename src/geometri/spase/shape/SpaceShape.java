@@ -7,7 +7,8 @@ import geometri.vertices.Vertices3D;
 
 import java.util.List;
 
-/**]
+/**
+ * ]
  * base class for all three-dimensional shapes, holds a list of 3D vertices (holding x, y and z),
  * implements AreaMeasurable and VolumeMeasurable interfaces
  */
@@ -15,7 +16,7 @@ import java.util.List;
 public abstract class SpaceShape implements AreaMeasurable, PerimeterMeasurable, VolumeMeasurable {
     protected List<Vertices3D> vertices;
 
-        }
+}
 
 
 

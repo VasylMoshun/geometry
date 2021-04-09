@@ -12,10 +12,7 @@ import java.util.List;
  */
 
 public abstract class PlaneShape implements PerimeterMeasurable, AreaMeasurable {
-  protected List<Vertices2D>vertices;
-
-
-
+    protected List<Vertices2D> vertices;
 
 
 }

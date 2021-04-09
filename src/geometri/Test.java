@@ -12,7 +12,7 @@ import geometri.vertices.Vertices3D;
 public class Test {
     public static void main(String[] args) {
         Triangle tr1 = new Triangle(
-                new Vertices2D (2, 4),
+                new Vertices2D(2, 4),
                 new Vertices2D(3, 6),
                 new Vertices2D(5, 7)
         );

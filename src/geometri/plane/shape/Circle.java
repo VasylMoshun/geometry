@@ -19,12 +19,12 @@ public class Circle extends PlaneShape {
 
     @Override
     public double getArea() {
-        return Math.PI * radius ;
+        return Math.PI * radius;
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * Math.PI * Math.pow(radius,2);
+        return 2 * Math.PI * Math.pow(radius, 2);
 
     }
 }

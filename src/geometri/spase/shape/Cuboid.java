@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * holds 1 vertex, width, height, depth
  */
-public class Cuboid extends SpaceShape{
+public class Cuboid extends SpaceShape {
     private final double width, height, depth;
 
     public Cuboid(Vertices3D a, double width, double height, double depth) {
