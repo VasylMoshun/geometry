@@ -1,6 +1,6 @@
-package geometry.spase.shape;
+package geometri.spase.shape;
 
-import geometry.vertices.Vertices3D;
+import geometri.vertices.Vertices3D;
 
 import java.util.ArrayList;
 import java.util.List;

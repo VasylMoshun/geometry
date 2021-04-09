@@ -1,4 +1,4 @@
-package geometry.vertices;
+package geometri.vertices;
 
 public class Vertices2D {
     double x ;

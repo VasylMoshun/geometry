@@ -1,6 +1,6 @@
-package geometry.plane.shape;
+package geometri.plane.shape;
 
-import geometry.vertices.Vertices2D;
+import geometri.vertices.Vertices2D;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class Circle extends PlaneShape {
     private final double radius;
 
     public Circle(Vertices2D a, double radius) {
-        vertices = new ArrayList<Vertices2D>(List.of(a));
+        vertices = new ArrayList<>(List.of(a));
         this.radius = radius;
     }
 

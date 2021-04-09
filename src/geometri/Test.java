@@ -1,18 +1,18 @@
-package geometry;
+package geometri;
 
-import geometry.plane.shape.Circle;
-import geometry.plane.shape.Rectangle;
-import geometry.plane.shape.Triangle;
-import geometry.spase.shape.Cuboid;
-import geometry.spase.shape.Sphere;
-import geometry.spase.shape.SquarePyramid;
-import geometry.vertices.Vertices2D;
-import geometry.vertices.Vertices3D;
+import geometri.plane.shape.Circle;
+import geometri.plane.shape.Rectangle;
+import geometri.plane.shape.Triangle;
+import geometri.spase.shape.Cuboid;
+import geometri.spase.shape.Sphere;
+import geometri.spase.shape.SquarePyramid;
+import geometri.vertices.Vertices2D;
+import geometri.vertices.Vertices3D;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Triangle tr1 = new Triangle(
-                new Vertices2D(2, 4),
+                new Vertices2D (2, 4),
                 new Vertices2D(3, 6),
                 new Vertices2D(5, 7)
         );
@@ -20,7 +20,7 @@ public class Main {
                 + "Triangle area:" + " " + tr1.getArea());
 
         Rectangle r1 = new Rectangle(
-                new Vertices2D(4, 7), 7, 9);
+                new Vertices2D(1, 1), 7, 9);
         System.out.println("Rectangle perimeter:" + " " + r1.getPerimeter() + "\n"
                 + "Rectangle area:" + " " + r1.getArea());
 

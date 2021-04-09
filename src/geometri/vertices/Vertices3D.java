@@ -1,4 +1,4 @@
-package geometry.vertices;
+package geometri.vertices;
 
 public class Vertices3D extends Vertices2D {
     double z;

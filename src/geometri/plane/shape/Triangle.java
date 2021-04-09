@@ -1,15 +1,13 @@
-package geometry.plane.shape;
+package geometri.plane.shape;
 
-import geometry.vertices.Vertices2D;
+import geometri.vertices.Vertices2D;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Triangle extends PlaneShape {
     public Triangle(Vertices2D a, Vertices2D b, Vertices2D c) {
-        vertices = new ArrayList<Vertices2D>(List.of(a));
-        vertices = new ArrayList<Vertices2D>(List.of(b));
-        vertices = new ArrayList<Vertices2D>(List.of(c));
+        vertices = new ArrayList<Vertices2D>(List.of(a,b,c));
     }
 
     @Override

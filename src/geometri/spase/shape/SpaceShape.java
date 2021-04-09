@@ -1,9 +1,9 @@
-package geometry.spase.shape;
+package geometri.spase.shape;
 
-import geometry.interfase.AreaMeasurable;
-import geometry.interfase.PerimeterMeasurable;
-import geometry.interfase.VolumeMeasurable;
-import geometry.vertices.Vertices3D;
+import geometri.interfase.AreaMeasurable;
+import geometri.interfase.PerimeterMeasurable;
+import geometri.interfase.VolumeMeasurable;
+import geometri.vertices.Vertices3D;
 
 import java.util.List;
 

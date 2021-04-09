@@ -1,8 +1,8 @@
-package geometry.plane.shape;
+package geometri.plane.shape;
 
-import geometry.interfase.AreaMeasurable;
-import geometry.interfase.PerimeterMeasurable;
-import geometry.vertices.Vertices2D;
+import geometri.interfase.AreaMeasurable;
+import geometri.interfase.PerimeterMeasurable;
+import geometri.vertices.Vertices2D;
 
 import java.util.List;
 
